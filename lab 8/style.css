@@ -1,0 +1,56 @@
+/* Hide the dropdown menu initially */
+.navbar ul {
+  display: none;
+}
+
+/* Display the dropdown menu on hover */
+.navbar li:hover > ul {
+  display: block;
+  background-color: Orange;
+}
+
+/* Remove list markers, margins, and padding from all lists */
+.navbar * {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Set the height and line-height of each menu item */
+.navbar li {
+  display: block;
+  height: 40px;
+  line-height: 40px;
+}
+
+/* Set the font family, background color, and flex properties for the menu */
+.navbar {
+  font-family: Verdana;
+  background: CornflowerBlue;
+  display: flex;
+  flex-direction: row;
+}
+
+/* Position the menu items relative to their parent */
+.navbar li {
+  position: relative;
+}
+
+/* Style the parent menu item on hover */
+.navbar li:hover {
+  background-color: Orange;
+}
+
+/* Style the dropdown menu items on hover */
+.navbar ul li:hover {
+  background-color: CornflowerBlue;
+}
+
+/* Style the menu links */
+.navbar li a {
+  display: table-cell;
+  min-width: 200px;
+  text-align: center;
+  color: White;
+  text-decoration: none;
+}
