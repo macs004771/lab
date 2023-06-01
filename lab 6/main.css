@@ -1,0 +1,24 @@
+.img-fotobaraban{
+    float: left;
+}
+
+.div::after{
+    content: "";
+    clear: both; 
+    display: block;
+}
+
+h2{
+    background-color: blueviolet;
+    color: aliceblue;
+    display: block;
+    padding: 5px;
+    border: 1px solid rgb(51, 16, 85);
+}
+
+.left-picture{
+    float: left;
+    text-align: center;
+    margin-right: 10px;
+    border: 1px solid black;
+}
