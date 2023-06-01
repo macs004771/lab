@@ -1,0 +1,27 @@
+.table th {
+    padding: 8px;
+    background-color:#a0bbf5;
+    border: 1px solid black;
+    text-align: center;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.table td {
+    padding: 8px;
+    border: 1px solid black;
+    text-align: left;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.table{
+    border-collapse: collapse;
+}
+
+.last{
+    text-align: right;
+    background-color: rgb(84, 84, 252);
+    color: white;
+    border-collapse: collapse;
+}
