@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>«Component»</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="button.css">
+    <link rel="stylesheet" href="model.css">
+</head>
+<body>
+    <div class="goods">
+        <img src="img/Laptop-ASUS-TUF-Gaming-F15-FX506HC-2.jpg" alt="Фотоапарат">
+        <h1>Ноутбук Laptop-ASUS-TUF-Gaming-F15-FX506HC</h1>
+        <p>Виробник/Модель: asus</p>
+        <p>Діагональ, дюйми: "15.6 1920x1080 пікселів 144 Гц"</p>
+        <p>Процесор (модель): Intel Core i5-11400H</p>
+        <p>Оперативна пам'ять,ГБ: 16 ГБ</p>
+        <p>SSD (чи HDD), ГБ: 512 ГБ</p>
+        <button class="button-one"> 
+            <b>
+                <a href="#modal">Edit</a>
+            </b>
+        </button>
+        <button class="button-two">delete</button>
+    </div>
+
+    <div class="overlay">
+        <div class="model">
+            <div class="model_head">
+                <p>Cup options</p>
+                <span class="span_close">
+                    <a href="#" class="close">♂</a>
+                </span>
+            </div>
+            <div class="model_center">
+                <h3>Модель:</h3>
+                <input type="text" class="center-text" placeholder="Введіть">
+                <h3>Оперативна пам'ять:</h3>
+                <input type="text" class="center-text" placeholder="Введіть">
+                <h3>Процесор (модель):</h3>
+                <select name="material" class="center-text">
+                    <option value="???">Intel Core i5-7300H</option>
+                    <option value="???">Intel Core i5-63400H</option>
+                    <option value="???">Intel Core i5-12500H</option>
+                    <option value="???">Intel Core i5-11400H</option>
+                </select>
+                <h3>Select image file:</h3>
+                <img src="" alt="photo">
+                <input class="center-text" type="file">
+            </div>
+            <div>
+                <button class="button-three">Confirm</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Get the "Confirm" button element
+        var confirmButton = document.querySelector('.button-three');
+
+        // Add a click event listener to the "Confirm" button
+        confirmButton.addEventListener('click', function() {
+            // Perform the desired action here
+            alert('Confirmation received!');
+        });
+   

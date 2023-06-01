@@ -1,0 +1,21 @@
+h1{
+    font-size: 1.2em;
+    font-family: 'Arial';
+}
+
+img{
+    padding: 10px 20px
+}
+
+.goods{
+    margin: 5;
+    padding: 5;
+    font-size: 0.9em;
+    width: 240px;
+    text-align: center;
+    background-color:rgb(227, 231, 229);
+    border-radius: 10px;
+    border: 2px solid rgb(163, 165, 165);
+    font-family: 'Arial';
+}
+  
