@@ -1,0 +1,63 @@
+h1{
+    font-size: 1.2em;
+    font-family: 'Arial';
+}
+
+img{
+    padding: 10px 20px
+}
+
+div{
+    font-size: 0.9em;
+    width: 240px;
+    text-align: center;
+    background-color:rgb(227, 231, 229);
+    border-radius: 10px;
+    border: 2px solid rgb(163, 165, 165);
+    font-family: 'Arial';
+}
+
+.button-one {
+    background-color: #ffffff; /* колір фону */
+    border: 2px solid aqua; /* відсутність межі */
+    color: aqua; /* колір тексту */
+    padding: 10px 20px; /* відстань від тексту до межі */
+    text-align: center; /* вирівнювання тексту */
+    text-decoration: none; /* відсутність підкреслення */
+    display: inline-block; /* блочний елемент, який займає лише необхідний розмір */
+    font-size: 16px; /* розмір шрифту */
+    border-radius: 5px; /* радіус закруглення кутів */
+    cursor: pointer; /* зміна форми курсора при наведенні */
+    transition: background-color 0.5s ease-in-out; /* згладжування зміни колірів */
+    margin-right: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .button-two {
+    background-color: #fafafa;
+    border: 2px solid red;
+    color: red;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5s ease-in-out;
+    margin-left: 5px;
+    margin-bottom: 10px;
+  }
+
+  .button-one:hover {
+    background-color: aqua; /* зміна кольору фону при наведенні */
+    color: white;
+    border: 2px solid white;
+  }
+
+  .button-two:hover {
+    background-color: red; /* зміна кольору фону при наведенні */
+    color: white;
+    border: 2px solid white;
+  }
+  
